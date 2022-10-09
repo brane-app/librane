@@ -1,7 +1,7 @@
 package database
 
 import (
-	"github.com/brane-app/types-library"
+	"github.com/brane-app/librane/types"
 
 	"database/sql"
 )

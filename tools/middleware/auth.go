@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/brane-app/database-library"
+	"github.com/brane-app/librane/database"
 
 	"context"
 	"net/http"

@@ -1,14 +1,14 @@
 package database
 
 import (
+	"github.com/brane-app/librane/types"
 	"github.com/google/uuid"
-	"github.com/brane-app/types-library"
 
 	"testing"
 )
 
 var (
-	user         types.User         = types.NewUser("imonke", "mmm, monke", "me@imonke.io")
+	user         types.User             = types.NewUser("imonke", "mmm, monke", "me@imonke.io")
 	writableUser map[string]interface{} = user.Map()
 )
 

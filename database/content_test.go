@@ -1,8 +1,8 @@
 package database
 
 import (
+	"github.com/brane-app/librane/types"
 	"github.com/google/uuid"
-	"github.com/brane-app/types-library"
 
 	"sort"
 	"strconv"
