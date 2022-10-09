@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+    mariadb:
+        image: mariadb
+        environment:
+            MYSQL_ROOT_PASSWORD: foobar2000
+            MYSQL_DATABASE: brane
+        ports:
+            - 3306:3306
